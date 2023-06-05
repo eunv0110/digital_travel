@@ -339,8 +339,13 @@
 -r:"Library/Bee/artifacts/200b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/200b0aE.dag/UnityEngine.UI.ref.dll"
 "Assets/button.cs"
+"Assets/NextScene_Fodd.cs"
 "Assets/TicketPlay.cs"
 "Assets/Ticket_button.cs"
+"Assets/Ticket_Calendar.cs"
+"Assets/Ticket_Pay.cs"
+"Assets/Ticket_Select.cs"
+"Assets/Ticket_Select_Region.cs"
 -langversion:9.0
 
 /deterministic
