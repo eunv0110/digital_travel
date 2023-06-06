@@ -8,6 +8,6 @@ public class NextScene_Fodd : MonoBehaviour
 {
     public void NextPlayScene()
     {
-        SceneManager.LoadScene("Food_Play");
+        SceneManager.LoadScene("Food_Text");
     }
 }
