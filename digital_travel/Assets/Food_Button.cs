@@ -1,7 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class Food_Button : MonoBehaviour
 {
@@ -10,11 +11,16 @@ public class Food_Button : MonoBehaviour
 
     public GameObject Text_button;// 버튼 오브젝트에 대한 참조
     public GameObject Text_button2;
+
+
+
     public void OnButtonClick()
     {
         Text1.SetActive(false);
         Text_button.SetActive(false);
         Text_button2.SetActive(true);
         Text2.SetActive(true);
+
+        SceneManager.LoadScene("Seoul");
     }
 }
