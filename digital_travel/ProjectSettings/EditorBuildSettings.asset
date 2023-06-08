@@ -18,6 +18,24 @@ EditorBuildSettings:
     path: Assets/Scenes/StartScene.unity
     guid: 6026bdea549e14981a22acf41bb93cdb
   - enabled: 1
+    path: Assets/Scenes/TravelScene.unity
+    guid: 7c1f7d218550f4e8d9beeaf9cd405531
+  - enabled: 1
+    path: Assets/Scenes/TicketDay.unity
+    guid: 28b4c9a4979a94b0fbfe5fc575038cca
+  - enabled: 1
+    path: Assets/Scenes/Bus_Text.unity
+    guid: 801d1444cc04e402b8cb7dfc3cca66c5
+  - enabled: 1
+    path: Assets/Scenes/Bus_Play.unity
+    guid: 09ee3c49f6a1e45b9aea179d8fec4167
+  - enabled: 1
+    path: Assets/Scenes/Ticket_Seat.unity
+    guid: d7be1ee948d894bb4b0cab5af928ba1a
+  - enabled: 1
+    path: Assets/Scenes/PracticeScene.unity
+    guid: 5e52088733e01489a84658b8f3721aae
+  - enabled: 1
     path: Assets/Scenes/Food_Play.unity
     guid: 7d329ded57e4b4f9e80821baa9640174
   - enabled: 1

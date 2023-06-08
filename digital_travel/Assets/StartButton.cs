@@ -7,6 +7,6 @@ public class StartButton : MonoBehaviour
 {
     public void PlayScene()
     {
-        SceneManager.LoadScene("Ticket_Text");
+        SceneManager.LoadScene("TravelScene");
     }
 }
