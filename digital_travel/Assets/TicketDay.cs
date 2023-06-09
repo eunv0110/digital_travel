@@ -11,6 +11,7 @@ public class TicketDay : MonoBehaviour
     public GameObject ConcertInfo;
     public GameObject Button1;
 
+
     public void AppearInfo()
     {
         ConcertInfo.SetActive(true);

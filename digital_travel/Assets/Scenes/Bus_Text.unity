@@ -321,7 +321,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 2134502260}
         m_TargetAssemblyTypeName: TicketPlay, Assembly-CSharp
-        m_MethodName: TicketPlayScene
+        m_MethodName: BusText
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
