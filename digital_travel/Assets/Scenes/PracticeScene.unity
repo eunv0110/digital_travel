@@ -510,7 +510,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1226803327}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2038638505}
+        m_TargetAssemblyTypeName: GoPracticeTrain, Assembly-CSharp
+        m_MethodName: GoTicket
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1226803327
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -752,7 +764,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1302978467}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2038638505}
+        m_TargetAssemblyTypeName: GoPracticeTrain, Assembly-CSharp
+        m_MethodName: GoTrain
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1302978467
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -969,6 +993,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2038638504}
   - component: {fileID: 2038638503}
+  - component: {fileID: 2038638505}
   m_Layer: 0
   m_Name: GoHome
   m_TagString: Untagged
@@ -1003,3 +1028,15 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2038638505
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2038638502}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e92002123a82647d0b28a7a499717736, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
