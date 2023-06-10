@@ -11,6 +11,8 @@ public class TicketSeat : MonoBehaviour
     public GameObject Button2;
     public GameObject Button3;
     public GameObject Button4;
+    public GameObject Button4_1;
+
     public GameObject Button5;
 
 
@@ -58,14 +60,38 @@ public class TicketSeat : MonoBehaviour
     {
         Button3.SetActive(true);
         Button4.SetActive(true);
+        Button4_1.SetActive(true);
+
 
 
     }
+
+    public void ActivePayHow2()
+    {
+        Button3.SetActive(true);
+        Button4_1.SetActive(true);
+
+    }
+
     public void TicketFinish()
     {
         Pay.SetActive(false);
         Button3.SetActive(false);
         Button4.SetActive(false);
+
+        Button5.SetActive(false);
+
+        Page3.SetActive(false);
+        Page4.SetActive(true);
+
+    }
+
+    public void TicketFinish2()
+    {
+        Pay.SetActive(false);
+        Button3.SetActive(false);
+        Button4_1.SetActive(false);
+
         Button5.SetActive(false);
 
         Page3.SetActive(false);

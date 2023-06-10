@@ -10,4 +10,13 @@ public class GoPractice : MonoBehaviour
     {
         SceneManager.LoadScene("PracticeScene");
     }
+
+    public GameObject targetObject;
+    public float delay = 2f;
+
+    private IEnumerator Start()
+    {
+        yield return new WaitForSeconds(delay);
+        targetObject.SetActive(false);
+    }
 }
