@@ -1,0 +1,343 @@
+Unity Editor version:    2021.3.22f1 (b6c551784ba3)
+Branch:                  2021.3/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 12.6.3 (Build 21G419)
+Darwin version:          21.6.0
+Architecture:            x86_64
+Running under Rosetta:   NO
+Available memory:        8192 MB
+Using pre-set license
+Pro License: YES
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2021.3.22f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+/Users/phuong1311/Desktop/digital_travel/digital_travel
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+54106
+Successfully changed project path to: /Users/phuong1311/Desktop/digital_travel/digital_travel
+/Users/phuong1311/Desktop/digital_travel/digital_travel
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [4853138944] Host "[IP] 192.168.0.100 [Port] 0 [Flags] 2 [Guid] 4012480548 [EditorId] 4012480548 [Version] 1048832 [Id] OSXEditor(0,PHUONG1311s-MacBook-Air.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [4853138944] Host "[IP] 192.168.0.100 [Port] 0 [Flags] 2 [Guid] 4012480548 [EditorId] 4012480548 [Version] 1048832 [Id] OSXEditor(0,PHUONG1311s-MacBook-Air.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 132.22 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.22f1 (b6c551784ba3)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2021.3.22f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/phuong1311/Desktop/digital_travel/digital_travel/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Color LCD preferred device: Intel(R) UHD Graphics 617 (low power)
+Metal devices available: 1
+0: Intel(R) UHD Graphics 617 (low power)
+Using device Intel(R) UHD Graphics 617 (low power)
+Initializing Metal device caps: Intel(R) UHD Graphics 617
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2021.3.22f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2021.3.22f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Hub/Editor/2021.3.22f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56384
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2021.3.22f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.002991 seconds.
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 286.86 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.088 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2089ms)
+		BeginReloadAssembly (283ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (2ms)
+		EndReloadAssembly (1590ms)
+			LoadAssemblies (284ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (271ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (65ms)
+			SetupLoadedEditorAssemblies (1144ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (13ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (287ms)
+				BeforeProcessingInitializeOnLoad (6ms)
+				ProcessInitializeOnLoadAttributes (642ms)
+				ProcessInitializeOnLoadMethodAttributes (195ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.019311 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/phuong1311/Desktop/digital_travel/digital_travel/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/phuong1311/Desktop/digital_travel/digital_travel/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.05 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.862 seconds
+Domain Reload Profiling:
+	ReloadAssembly (4871ms)
+		BeginReloadAssembly (480ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (24ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (110ms)
+		EndReloadAssembly (3645ms)
+			LoadAssemblies (442ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1502ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (256ms)
+			SetupLoadedEditorAssemblies (1294ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (15ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (258ms)
+				ProcessInitializeOnLoadAttributes (887ms)
+				ProcessInitializeOnLoadMethodAttributes (126ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (14ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launching external process: /Applications/Unity/Hub/Editor/2021.3.22f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.23 seconds
+Refreshing native plugins compatible for Editor in 1.02 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2951 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 21 unused Assets / (40.9 KB). Loaded Objects now: 3413.
+Memory consumption went from 98.5 MB to 98.5 MB.
+Total: 38.078012 ms (FindLiveObjects: 0.461248 ms CreateObjectMapping: 0.410418 ms MarkObjects: 37.036334 ms  DeleteObjects: 0.160548 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 75368.853224 seconds.
+  path: Assets/Sprite/키오스크/kiosk/kiosk_botton4_2.png
+  artifactKey: Guid(c55e37428eb30435a8eda64e08547561) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/키오스크/kiosk/kiosk_botton4_2.png using Guid(c55e37428eb30435a8eda64e08547561) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61241f9e9803c66bf33b7c0116d965a9') in 4.017099 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000168 seconds.
+  path: Assets/Sprite/키오스크/kiosk/kiosk_botton3_1.png
+  artifactKey: Guid(f4556023c4b234613924cb37b0541a54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/키오스크/kiosk/kiosk_botton3_1.png using Guid(f4556023c4b234613924cb37b0541a54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '271f166dda9afc989f3747504c38f2b6') in 0.540018 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002427 seconds.
+  path: Assets/Sprite/키오스크/kiosk/kiosk_botton9_1.png
+  artifactKey: Guid(f5e73cac3b5fa48cf9a4a44e213b319d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/키오스크/kiosk/kiosk_botton9_1.png using Guid(f5e73cac3b5fa48cf9a4a44e213b319d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10564bd51a4821edd03271ee0127a390') in 0.783770 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.007521 seconds.
+  path: Assets/Sprite/키오스크/training_kiosk/training_kiosk_mes4.png
+  artifactKey: Guid(d4e3bbce1829e4897a2c61e851976827) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/키오스크/training_kiosk/training_kiosk_mes4.png using Guid(d4e3bbce1829e4897a2c61e851976827) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd2b139566ff7c8636a63cf9239685c4') in 0.941242 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/Sprite/키오스크/kiosk/kiosk_botton9_2.png
+  artifactKey: Guid(bd825b20a5c8348b6ab2286d30797cc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/키오스크/kiosk/kiosk_botton9_2.png using Guid(bd825b20a5c8348b6ab2286d30797cc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '287c785134adce80cbd8bf752a41daf9') in 0.468799 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000110 seconds.
+  path: Assets/Sprite/키오스크/kiosk/kiosk_botton7_2.png
+  artifactKey: Guid(0353ab40bd73f4fd18e5926b9253524f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/키오스크/kiosk/kiosk_botton7_2.png using Guid(0353ab40bd73f4fd18e5926b9253524f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '766e0e8a74e5cce34b6bf2fc947b6cd6') in 0.729138 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001593 seconds.
+  path: Assets/Sprite/키오스크/kiosk/kiosk_botton5_4.png
+  artifactKey: Guid(fff63b4804a3746f99e6c711f6380f18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/키오스크/kiosk/kiosk_botton5_4.png using Guid(fff63b4804a3746f99e6c711f6380f18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96bc7b187f2509670287002b0f3aaa4c') in 1.825533 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/Sprite/키오스크/training_kiosk/training_kiosk_botton4.png
+  artifactKey: Guid(49cf5063dda044165b2144c6f376440d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/키오스크/training_kiosk/training_kiosk_botton4.png using Guid(49cf5063dda044165b2144c6f376440d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54ef941a4e2b9eeaef14cc6a151f35ea') in 0.432232 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/Sprite/키오스크/kiosk/kiosk_back_7.png
+  artifactKey: Guid(bb9a8046824a94b819c30751e729e829) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/키오스크/kiosk/kiosk_back_7.png using Guid(bb9a8046824a94b819c30751e729e829) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ac90db39c6ebfebb788f2af5509b2e0') in 0.394814 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002016 seconds.
+  path: Assets/Sprite/키오스크/kiosk/kiosk_botton5_3.png
+  artifactKey: Guid(09ab2ff4cb6104b6ebe4b9ce4861dfcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/키오스크/kiosk/kiosk_botton5_3.png using Guid(09ab2ff4cb6104b6ebe4b9ce4861dfcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7d07fd7e5e3e8e4ef444c4ad8d3a3d1') in 1.102948 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000213 seconds.
+  path: Assets/Sprite/키오스크/training_kiosk/training_kiosk_mes3.png
+  artifactKey: Guid(5bae1809538a74af2a12e3ebb09b57a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/키오스크/training_kiosk/training_kiosk_mes3.png using Guid(5bae1809538a74af2a12e3ebb09b57a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61a94ae5bfb0ad2b8b57362eb699e88e') in 0.877205 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.006968 seconds.
+  path: Assets/Sprite/키오스크/kiosk/kiosk_botton6_5.png
+  artifactKey: Guid(cf2fbb6922f3145b2abf5a1e472672ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/키오스크/kiosk/kiosk_botton6_5.png using Guid(cf2fbb6922f3145b2abf5a1e472672ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1d28529789b56a7bc4f3885e0ee40bc') in 1.034298 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002192 seconds.
+  path: Assets/Sprite/키오스크/kiosk/kiosk_cart0.png
+  artifactKey: Guid(db35674b0fe93460683aedf75ee1457f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/키오스크/kiosk/kiosk_cart0.png using Guid(db35674b0fe93460683aedf75ee1457f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cfd5ee33d07945bc03355a6b53f1488') in 0.923358 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.007538 seconds.
+  path: Assets/Sprite/키오스크/kiosk/kiosk_botton9_4.png
+  artifactKey: Guid(910bfc9a041554147876536f97aca94e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/키오스크/kiosk/kiosk_botton9_4.png using Guid(910bfc9a041554147876536f97aca94e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e659d56e7acf4674ba7aee9bc6ce7816') in 0.602656 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000111 seconds.
+  path: Assets/Sprite/키오스크/kiosk/kiosk_botton7_1.png
+  artifactKey: Guid(484dad124012d40f5b90c844fecc7177) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/키오스크/kiosk/kiosk_botton7_1.png using Guid(484dad124012d40f5b90c844fecc7177) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c403669eb4f2e69e7a6f27f2da60eb26') in 0.435898 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000138 seconds.
+  path: Assets/Sprite/키오스크/training_kiosk/training_kiosk_mes6.png
+  artifactKey: Guid(040369e2087504a0283fd93d46fca027) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/키오스크/training_kiosk/training_kiosk_mes6.png using Guid(040369e2087504a0283fd93d46fca027) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '021356d9d2455cdcd829d0db3908350a') in 0.973700 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000151 seconds.
+  path: Assets/Sprite/키오스크/training_kiosk/training_kiosk_back1.png
+  artifactKey: Guid(bb4e38e1dcd5c4edab72a69dfba5ee54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/키오스크/training_kiosk/training_kiosk_back1.png using Guid(bb4e38e1dcd5c4edab72a69dfba5ee54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1edf8c5cf0173eedd00974c584c76edd') in 0.499014 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002593 seconds.
+  path: Assets/Sprite/키오스크/training_kiosk/training_kiosk_back5.png
+  artifactKey: Guid(6efbb85bfd5374bccb229f4ac8420820) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/키오스크/training_kiosk/training_kiosk_back5.png using Guid(6efbb85bfd5374bccb229f4ac8420820) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd49a5d1ffde6aea780fa3a4f9db5b14d') in 0.349534 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000150 seconds.
+  path: Assets/Sprite/키오스크/kiosk/kiosk_botton8_4.png
+  artifactKey: Guid(7d8864b8bc5b14dc1889b63554093d56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/키오스크/kiosk/kiosk_botton8_4.png using Guid(7d8864b8bc5b14dc1889b63554093d56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78b410cf7c9be50b79089ae7c23d0787') in 1.033561 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004207 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/phuong1311/Desktop/digital_travel/digital_travel/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/phuong1311/Desktop/digital_travel/digital_travel/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.18 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  6.419 seconds
+Domain Reload Profiling:
+	ReloadAssembly (6433ms)
+		BeginReloadAssembly (610ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (21ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (189ms)
+		EndReloadAssembly (5324ms)
+			LoadAssemblies (370ms)
+			RebuildTransferFunctionScriptingTraits (1ms)
+			SetupTypeCache (1528ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (440ms)
+			SetupLoadedEditorAssemblies (2404ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (17ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (434ms)
+				ProcessInitializeOnLoadAttributes (1772ms)
+				ProcessInitializeOnLoadMethodAttributes (172ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (55ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 7.08 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2945 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 14 unused Assets / (22.0 KB). Loaded Objects now: 3442.
+Memory consumption went from 104.6 MB to 104.5 MB.
+Total: 18.993085 ms (FindLiveObjects: 0.787212 ms CreateObjectMapping: 0.512132 ms MarkObjects: 17.597535 ms  DeleteObjects: 0.093333 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting

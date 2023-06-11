@@ -6,7 +6,7 @@ macOS version:           Version 12.6.3 (Build 21G419)
 Darwin version:          21.6.0
 Architecture:            x86_64
 Running under Rosetta:   NO
-Available memory:        16384 MB
+Available memory:        8192 MB
 Using pre-set license
 Pro License: YES
 
@@ -18,13 +18,13 @@ COMMAND LINE ARGUMENTS:
 -name
 AssetImportWorker1
 -projectPath
-/Users/hwang-eunbi/Documents/GitHub/eun-s_adventure/digital_travel/digital_travel
+/Users/phuong1311/Desktop/digital_travel/digital_travel
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-52554
-Successfully changed project path to: /Users/hwang-eunbi/Documents/GitHub/eun-s_adventure/digital_travel/digital_travel
-/Users/hwang-eunbi/Documents/GitHub/eun-s_adventure/digital_travel/digital_travel
+53947
+Successfully changed project path to: /Users/phuong1311/Desktop/digital_travel/digital_travel
+/Users/phuong1311/Desktop/digital_travel/digital_travel
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -54,113 +54,109 @@ Successfully changed project path to: /Users/hwang-eunbi/Documents/GitHub/eun-s_
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [4752680448] Host "[IP] 172.16.1.206 [Port] 0 [Flags] 2 [Guid] 2163337954 [EditorId] 2163337954 [Version] 1048832 [Id] OSXEditor(0,hwang-eunbiui-MacBookPro.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [4714407424] Host "[IP] 192.168.0.100 [Port] 0 [Flags] 2 [Guid] 3623550356 [EditorId] 3623550356 [Version] 1048832 [Id] OSXEditor(0,PHUONG1311s-MacBook-Air.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [4752680448] Host "[IP] 172.16.1.206 [Port] 0 [Flags] 2 [Guid] 2163337954 [EditorId] 2163337954 [Version] 1048832 [Id] OSXEditor(0,hwang-eunbiui-MacBookPro.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [4714407424] Host "[IP] 192.168.0.100 [Port] 0 [Flags] 2 [Guid] 3623550356 [EditorId] 3623550356 [Version] 1048832 [Id] OSXEditor(0,PHUONG1311s-MacBook-Air.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 85.88 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 98.86 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.22f1 (b6c551784ba3)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2021.3.22f1/Unity.app/Contents/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path /Users/hwang-eunbi/Documents/GitHub/eun-s_adventure/digital_travel/digital_travel/Assets
+[Subsystems] Discovering subsystems at path /Users/phuong1311/Desktop/digital_travel/digital_travel/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
-Color LCD preferred device: AMD Radeon Pro 5500M (high power)
-Metal devices available: 2
-0: AMD Radeon Pro 5500M (high power)
-1: Intel(R) UHD Graphics 630 (low power)
-Using device AMD Radeon Pro 5500M (high power)
-Initializing Metal device caps: AMD Radeon Pro 5500M
+Color LCD preferred device: Intel(R) UHD Graphics 617 (low power)
+Metal devices available: 1
+0: Intel(R) UHD Graphics 617 (low power)
+Using device Intel(R) UHD Graphics 617 (low power)
+Initializing Metal device caps: Intel(R) UHD Graphics 617
 Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/2021.3.22f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/2021.3.22f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
 Mono config path = '/Applications/Unity/Hub/Editor/2021.3.22f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56228
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56010
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: /Applications/Unity/Hub/Editor/2021.3.22f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: /Applications/Unity/Hub/Editor/2021.3.22f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.004909 seconds.
+Registered in 0.001102 seconds.
 Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 68.26 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 114.36 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.839 seconds
+- Completed reload, in  1.220 seconds
 Domain Reload Profiling:
-	ReloadAssembly (840ms)
-		BeginReloadAssembly (147ms)
+	ReloadAssembly (1220ms)
+		BeginReloadAssembly (170ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (564ms)
-			LoadAssemblies (149ms)
+			CreateAndSetChildDomain (2ms)
+		EndReloadAssembly (857ms)
+			LoadAssemblies (168ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (159ms)
+			SetupTypeCache (265ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (40ms)
-			SetupLoadedEditorAssemblies (304ms)
+			RebuildScriptCaches (56ms)
+			SetupLoadedEditorAssemblies (457ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (68ms)
-				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (169ms)
-				ProcessInitializeOnLoadMethodAttributes (57ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (114ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (250ms)
+				ProcessInitializeOnLoadMethodAttributes (80ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.001425 seconds.
+Registered in 0.002040 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image /Users/hwang-eunbi/Documents/GitHub/eun-s_adventure/digital_travel/digital_travel/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /Users/hwang-eunbi/Documents/GitHub/eun-s_adventure/digital_travel/digital_travel/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image /Users/phuong1311/Desktop/digital_travel/digital_travel/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/phuong1311/Desktop/digital_travel/digital_travel/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
 Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.70 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.78 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.226 seconds
+- Completed reload, in  1.774 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1227ms)
-		BeginReloadAssembly (145ms)
+	ReloadAssembly (1776ms)
+		BeginReloadAssembly (191ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
+			DisableScriptedObjects (9ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (34ms)
-		EndReloadAssembly (950ms)
-			LoadAssemblies (116ms)
+			CreateAndSetChildDomain (45ms)
+		EndReloadAssembly (1362ms)
+			LoadAssemblies (127ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (305ms)
+			SetupTypeCache (453ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (64ms)
-			SetupLoadedEditorAssemblies (425ms)
+			RebuildScriptCaches (111ms)
+			SetupLoadedEditorAssemblies (604ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (7ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (74ms)
-				ProcessInitializeOnLoadAttributes (315ms)
-				ProcessInitializeOnLoadMethodAttributes (27ms)
+				BeforeProcessingInitializeOnLoad (100ms)
+				ProcessInitializeOnLoadAttributes (458ms)
+				ProcessInitializeOnLoadMethodAttributes (35ms)
 				AfterProcessingInitializeOnLoad (1ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launching external process: /Applications/Unity/Hub/Editor/2021.3.22f1/Unity.app/Contents/Tools/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.09 seconds
-Refreshing native plugins compatible for Editor in 0.48 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler after 0.10 seconds
+Refreshing native plugins compatible for Editor in 1.25 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2941 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 21 unused Assets / (40.4 KB). Loaded Objects now: 3403.
-Memory consumption went from 98.8 MB to 98.8 MB.
-Total: 4.236577 ms (FindLiveObjects: 0.280761 ms CreateObjectMapping: 0.213346 ms MarkObjects: 3.554138 ms  DeleteObjects: 0.187501 ms)
+Unloading 2951 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 21 unused Assets / (40.4 KB). Loaded Objects now: 3413.
+Memory consumption went from 98.7 MB to 98.7 MB.
+Total: 4.522757 ms (FindLiveObjects: 0.411471 ms CreateObjectMapping: 0.488042 ms MarkObjects: 3.522829 ms  DeleteObjects: 0.099207 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -172,132 +168,3 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 28859.193337 seconds.
-  path: Assets/Sprite/2x/자산 26@2x.png
-  artifactKey: Guid(42672abc7094040788226bbd03a69b15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/2x/자산 26@2x.png using Guid(42672abc7094040788226bbd03a69b15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f5d35d27b8d357424cd8f3900b679b0') in 1.010292 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000730 seconds.
-  path: Assets/Sprite/2x/자산 24@2x.png
-  artifactKey: Guid(a001af736225742d59cec244d104e247) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/2x/자산 24@2x.png using Guid(a001af736225742d59cec244d104e247) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5c4151670c59fb220afc4ee0a0e6fa9') in 0.156333 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000087 seconds.
-  path: Assets/Sprite/2x/자산 27@2x.png
-  artifactKey: Guid(d881b7d4151b644cdb79b825bb836776) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/2x/자산 27@2x.png using Guid(d881b7d4151b644cdb79b825bb836776) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfe425f683a8a99865c4ac0782161ae9') in 0.135088 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000103 seconds.
-  path: Assets/Sprite/2x/자산 33@2x.png
-  artifactKey: Guid(e9664746d87204e228b3676df0b4dfd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/2x/자산 33@2x.png using Guid(e9664746d87204e228b3676df0b4dfd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '014203788cf67a6c7353aebe17e623ba') in 0.135979 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000058 seconds.
-  path: Assets/Sprite/2x/자산 30@2x.png
-  artifactKey: Guid(a6c5f524f31d84d63af3c261a9ffbbe5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/2x/자산 30@2x.png using Guid(a6c5f524f31d84d63af3c261a9ffbbe5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04b75c811a0c3b9d39c3db8c16ce3252') in 0.130480 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000092 seconds.
-  path: Assets/Sprite/2x/자산 5@2x.png
-  artifactKey: Guid(045e14ab10a3c482db7d55473f7d2d37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/2x/자산 5@2x.png using Guid(045e14ab10a3c482db7d55473f7d2d37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96f5a61021904728e6574d44c08ac2df') in 0.210961 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000124 seconds.
-  path: Assets/Sprite/2x/자산 7@2x.png
-  artifactKey: Guid(a0dd782aecbe5495082d582bc085b98d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/2x/자산 7@2x.png using Guid(a0dd782aecbe5495082d582bc085b98d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13aa8368ea258f27b5e885022ee61f85') in 0.162807 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000076 seconds.
-  path: Assets/Sprite/2x/자산 22@2x.png
-  artifactKey: Guid(53b373012926e49c684ac7f08d6d0471) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/2x/자산 22@2x.png using Guid(53b373012926e49c684ac7f08d6d0471) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9aa945bdd1ae17c376a16bf2c30a412c') in 0.122054 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 396.483493 seconds.
-  path: Assets/Sprite/training_train 3/training_train_back2.png
-  artifactKey: Guid(6bcb41d5e5df64f4f90c0c2be83eab0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/training_train 3/training_train_back2.png using Guid(6bcb41d5e5df64f4f90c0c2be83eab0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56cf2596c7edac5c0aea8e4ae6be8d1f') in 0.137679 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000116 seconds.
-  path: Assets/Sprite/training_train 3/training_train_mes5.png
-  artifactKey: Guid(9fefc9e8c160549f6840ac674afdc5cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/training_train 3/training_train_mes5.png using Guid(9fefc9e8c160549f6840ac674afdc5cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8dfe63cb7b60106e9353523204d19b6e') in 0.213317 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000049 seconds.
-  path: Assets/Sprite/training_train 3/training_train_botton4.png
-  artifactKey: Guid(8f260ad0da39a48ee8a58f6fdf2abbf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/training_train 3/training_train_botton4.png using Guid(8f260ad0da39a48ee8a58f6fdf2abbf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '484e4b628cf0633d13b308011d874bfd') in 0.084540 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000149 seconds.
-  path: Assets/Sprite/training_train 3/training_train_circle4.png
-  artifactKey: Guid(fc394659fa5b14ccba979e60d6b27cfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/training_train 3/training_train_circle4.png using Guid(fc394659fa5b14ccba979e60d6b27cfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0715a420053b065a1be7e747ca4609e6') in 0.164984 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000084 seconds.
-  path: Assets/Sprite/training_train 3/training_train_circle5.png
-  artifactKey: Guid(bd0c81808584441f9aeed93b2dfc053e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/training_train 3/training_train_circle5.png using Guid(bd0c81808584441f9aeed93b2dfc053e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b36da1e98fc63fde5a676853a9d13d7d') in 0.122204 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000136 seconds.
-  path: Assets/Sprite/training_train 3/training_train_circle2.png
-  artifactKey: Guid(367050dc518ba4e75a4d5315bae9aee1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/training_train 3/training_train_circle2.png using Guid(367050dc518ba4e75a4d5315bae9aee1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68941a56726cef7bee956281e7da7ea6') in 0.226614 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000065 seconds.
-  path: Assets/Sprite/training_train 3/training_train_back4.png
-  artifactKey: Guid(7b17015a1bc2246b3b229f047f52b5d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/training_train 3/training_train_back4.png using Guid(7b17015a1bc2246b3b229f047f52b5d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b649e65441c530c6a1bd35cc3037ec0a') in 0.116504 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000062 seconds.
-  path: Assets/Sprite/training_train 3/training_train_mes4.png
-  artifactKey: Guid(2ec42ca76fabc4cb797a2c8dbfae3d05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/training_train 3/training_train_mes4.png using Guid(2ec42ca76fabc4cb797a2c8dbfae3d05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d236820fe414cd23032e41bb0096ac1') in 0.196481 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000063 seconds.
-  path: Assets/Sprite/training_train 3/training_train_botton1.png
-  artifactKey: Guid(36555a4a902e640c2b3efc0431274c5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/training_train 3/training_train_botton1.png using Guid(36555a4a902e640c2b3efc0431274c5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f2647ba8289fbb3636e1c3110c0b620') in 0.117919 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000070 seconds.
-  path: Assets/Sprite/training_train 3/training_train_mes2.png
-  artifactKey: Guid(559c2fcc9f0fb4b0d925a1991759b945) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/training_train 3/training_train_mes2.png using Guid(559c2fcc9f0fb4b0d925a1991759b945) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0ad457cd849b307b4f2e7f797d5da8b') in 0.202830 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000065 seconds.
-  path: Assets/Sprite/training_train 3/training_train_back5.png
-  artifactKey: Guid(51e639d98332a4e35809ba42422cd5ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/training_train 3/training_train_back5.png using Guid(51e639d98332a4e35809ba42422cd5ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f94825980e61cde9d6ef46be11f5d4eb') in 0.106056 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000059 seconds.
-  path: Assets/Sprite/training_train 3/training_train_circle1.png
-  artifactKey: Guid(b1b1b86782c66457e9f2b5576fdbecaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/training_train 3/training_train_circle1.png using Guid(b1b1b86782c66457e9f2b5576fdbecaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8ee85b749351aa243995e5359b1969e') in 0.211358 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000045 seconds.
-  path: Assets/Sprite/training_train 3/training_train_mes9.png
-  artifactKey: Guid(91b53ffd911cf488dbc05781b91db0d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/training_train 3/training_train_mes9.png using Guid(91b53ffd911cf488dbc05781b91db0d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f85685260e0a96f6f035883813e3dddb') in 0.209536 seconds 
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-AssetImportWorker is now disconnected from the server
-Process exiting
