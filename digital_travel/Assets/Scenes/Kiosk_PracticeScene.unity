@@ -1480,7 +1480,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2038638503}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: GoHome, Assembly-CSharp
         m_MethodName: Home
         m_Mode: 1
@@ -2478,7 +2478,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2038638503}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: GoHome, Assembly-CSharp
         m_MethodName: Home
         m_Mode: 1
@@ -2671,6 +2671,18 @@ MonoBehaviour:
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 2038638505}
+        m_TargetAssemblyTypeName: changeScene, Assembly-CSharp
+        m_MethodName: KioskStoryScene
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -4246,27 +4258,14 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2038638504}
-  - component: {fileID: 2038638503}
   - component: {fileID: 2038638505}
   m_Layer: 0
-  m_Name: GoHome
+  m_Name: GoKioskStoryScene
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &2038638503
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2038638502}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 57935a7147e9a48c694f5c206559831d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!4 &2038638504
 Transform:
   m_ObjectHideFlags: 0
@@ -4291,6 +4290,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 2038638502}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e92002123a82647d0b28a7a499717736, type: 3}
+  m_Script: {fileID: 11500000, guid: 09f541afd7d80429381a4fdc289dc9a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
