@@ -10,4 +10,16 @@ public class GoHome : MonoBehaviour
     {
         SceneManager.LoadScene("StartScene");
     }
+
+
+    public void GoTravelScene()
+    {
+        SceneManager.LoadScene("TravelScene");
+    }
+
+
+    public void GoKiosk()
+    {
+        SceneManager.LoadScene("Kiosk_Story");
+    }
 }

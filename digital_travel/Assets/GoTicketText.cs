@@ -8,7 +8,7 @@ public class GoTicketText : MonoBehaviour
 {
     public void TicketText()
     {
-        SceneManager.LoadScene("Ticket_Text");
+        SceneManager.LoadScene("Ticket_Text0");
     }
     public void TicketDay()
     {
@@ -17,7 +17,7 @@ public class GoTicketText : MonoBehaviour
 
     public void BusText()
     {
-        SceneManager.LoadScene("Bus_Text");
+        SceneManager.LoadScene("Train_Text0");
     }
 
 }

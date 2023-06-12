@@ -14,4 +14,17 @@ public class changeScene : MonoBehaviour
     {
         SceneManager.LoadScene("Kiosk_Story");
     }
+
+    public void TicketStoryScene()
+    {
+        SceneManager.LoadScene("TravelScene");
+    }
+
+    public void TicketToTrain()
+    {
+        SceneManager.LoadScene("BusText");
+    }
+
+
+
 }
