@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/TravelScene.unity
+- path: Assets/Scenes/Kiosk_PracticeScene.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
