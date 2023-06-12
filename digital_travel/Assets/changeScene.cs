@@ -5,6 +5,8 @@ using UnityEngine.SceneManagement;
 
 public class changeScene : MonoBehaviour
 {
+    public GameObject button1;
+
     public void KioskTrainingScene()
     {
         SceneManager.LoadScene("Kiosk_PracticeScene");
@@ -22,8 +24,34 @@ public class changeScene : MonoBehaviour
 
     public void TicketToTrain()
     {
-        SceneManager.LoadScene("BusText");
+        SceneManager.LoadScene("Train_Text0");
     }
+
+    public void ToTravelScene()
+    {
+        SceneManager.LoadScene("TravelScene");
+    }
+
+    public void ToFinal()
+    {
+        SceneManager.LoadScene("Final");
+    }
+
+    public void ToPractice()
+    {
+        SceneManager.LoadScene("PracticeScene");
+    }
+
+    public void ActiveTrue()
+    {
+        button1.SetActive(true);
+    }
+
+    public void ActiveFalse()
+    {
+        button1.SetActive(false);
+    }
+
 
 
 

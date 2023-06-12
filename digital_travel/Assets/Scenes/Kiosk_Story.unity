@@ -779,8 +779,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 5.335121, y: -23.833748}
-  m_SizeDelta: {x: 88.0899, y: 87.325}
+  m_AnchoredPosition: {x: 6.58, y: -31.3}
+  m_SizeDelta: {x: 120.74, y: 75.99544}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &203244023
 MonoBehaviour:
@@ -1076,7 +1076,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -261.096, y: -835.0026}
+  m_AnchoredPosition: {x: -249.39824, y: -639.9188}
   m_SizeDelta: {x: 80, y: 42.2294}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &214887921
@@ -1125,7 +1125,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 2038638505}
         m_TargetAssemblyTypeName: changeScene, Assembly-CSharp
-        m_MethodName: KioskTrainingScene
+        m_MethodName: ToTravelScene
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1549,7 +1549,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 191.30223, y: -832.08374}
+  m_AnchoredPosition: {x: 203, y: -637}
   m_SizeDelta: {x: 80, y: 42.2294}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &271989424
@@ -1598,7 +1598,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 2038638505}
         m_TargetAssemblyTypeName: changeScene, Assembly-CSharp
-        m_MethodName: KioskTrainingScene
+        m_MethodName: ToFinal
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2449,6 +2449,8 @@ MonoBehaviour:
   - {fileID: 157333343}
   - {fileID: 2144547607}
   actionButton: {fileID: 1059469313}
+  button1: {fileID: 1738459154}
+  button2: {fileID: 1007429821}
 --- !u!4 &572127349
 Transform:
   m_ObjectHideFlags: 0
@@ -3141,6 +3143,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 572127348}
+        m_TargetAssemblyTypeName: ImageSwitcher, Assembly-CSharp
+        m_MethodName: ButtonFalse
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &975526751
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3196,8 +3210,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 6.3351173, y: 37.166252}
-  m_SizeDelta: {x: 89.3046, y: 88.067}
+  m_AnchoredPosition: {x: 7.7, y: 27.9}
+  m_SizeDelta: {x: 118.50005, y: 78.48045}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &987588473
 GameObject:
@@ -3870,8 +3884,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 12.382206, y: -594.3456}
-  m_SizeDelta: {x: 80, y: 42.2294}
+  m_AnchoredPosition: {x: -11, y: -587}
+  m_SizeDelta: {x: 100.76, y: 51.6805}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1062597000
 GameObject:
@@ -5983,8 +5997,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -5.335125, y: 25.333748}
-  m_SizeDelta: {x: 156.23434, y: 159.5345}
+  m_AnchoredPosition: {x: -53.2099, y: 23.4924}
+  m_SizeDelta: {x: 167.5639, y: 159.9703}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1957137138
 GameObject:
@@ -6768,6 +6782,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 09f541afd7d80429381a4fdc289dc9a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  button1: {fileID: 0}
 --- !u!1 &2046607630
 GameObject:
   m_ObjectHideFlags: 0
