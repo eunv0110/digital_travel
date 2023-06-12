@@ -1,5 +1,9 @@
 sceneSetups:
+<<<<<<< HEAD
 - path: Assets/Scenes/StartScene.unity
+=======
+- path: Assets/Scenes/Kiosk_PracticeScene.unity
+>>>>>>> af6062cb9b72d519146285295761b163d4715dff
   isLoaded: 1
   isActive: 1
   isSubScene: 0
