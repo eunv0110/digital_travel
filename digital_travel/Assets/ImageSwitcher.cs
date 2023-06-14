@@ -10,6 +10,9 @@ public class ImageSwitcher : MonoBehaviour
     public Button actionButton; // The action button to be shown when the last sprite is displayed
 
     private int currentIndex = 0; // Index of the currently displayed sprite
+    public GameObject button1;
+    public GameObject button2;
+
 
     private void Start()
     {
@@ -61,5 +64,12 @@ public class ImageSwitcher : MonoBehaviour
 
         // Show the previous sprite
         ShowSprite();
+    }
+
+    public void ButtonFalse()
+    {
+        button1.SetActive(false);
+        button2.SetActive(false);
+
     }
 }

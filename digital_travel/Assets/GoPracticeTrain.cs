@@ -16,4 +16,9 @@ public class GoPracticeTrain : MonoBehaviour
         SceneManager.LoadScene("Practice_Ticket");
     }
 
+    public void GoKosik()
+    {
+        SceneManager.LoadScene("Kiosk_PracticeScene");
+    }
+
 }

@@ -14,6 +14,8 @@ public class ImageChange : MonoBehaviour
     public GameObject Button1;
     public GameObject Button2;
     public GameObject Button3;
+    public GameObject Button3_2;
+
 
 
 
@@ -37,6 +39,8 @@ public class ImageChange : MonoBehaviour
 
         Image3.SetActive(true);
         Button3.SetActive(true);
+        Button3_2.SetActive(true);
+
 
     }
 
