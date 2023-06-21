@@ -17,9 +17,15 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Ticket_Text0.unity
     guid: fa59f9e87ba64401d8675d56ba319218
+  - enabled: 1
+    path: Assets/Scenes/Kiosk_Play.unity
+    guid: fd2e816bf687f456fa9cb617a3a4ff9f
   - enabled: 0
     path: 
     guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: Assets/Scenes/Success_Kiosk.unity
+    guid: 5ed791f684f144f198d96b8d5c0b3e3d
   - enabled: 1
     path: Assets/Scenes/ResultScene.unity
     guid: aac28c44418964d9f805b789d4759765
@@ -32,6 +38,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Practice_Ticket.unity
     guid: 2d33b823e3c1e400a9cfd62e6e0b2965
+  - enabled: 1
+    path: Assets/Scenes/Kiosk_Text.unity
+    guid: 69a104e9d157b4fcfac4d0831dc26f83
   - enabled: 1
     path: Assets/Scenes/TicketDay.unity
     guid: 28b4c9a4979a94b0fbfe5fc575038cca
@@ -59,7 +68,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Kiosk_PracticeScene.unity
     guid: 650e7230cfe4a42598c9c2f488e634bc
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Kiosk_Story.unity
     guid: dd0bccdf9f82d4d24965e7919f1e0806
   m_configObjects: {}

@@ -20,6 +20,6 @@ public class GoHome : MonoBehaviour
 
     public void GoKiosk()
     {
-        SceneManager.LoadScene("Kiosk_Story");
+        SceneManager.LoadScene("Kiosk_Text");
     }
 }
