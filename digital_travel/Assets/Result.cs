@@ -16,14 +16,9 @@ public class Result : MonoBehaviour
     public void Activepage1()
     {
         page1.SetActive(true);
-        b1.SetActive(true);
-        b2.SetActive(false);
-        b2_2.SetActive(false);
-        b2_3.SetActive(false);
-
-
-
         page2.SetActive(false);
+
+
 
 
     }
@@ -32,9 +27,6 @@ public class Result : MonoBehaviour
     {
         page2.SetActive(true);
         page1.SetActive(false);
-        b2.SetActive(true);
-        b2_2.SetActive(true);
-        b2_3.SetActive(true);
 
 
     }
